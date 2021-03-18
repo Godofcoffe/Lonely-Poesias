@@ -1,0 +1,61 @@
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-left: 15px;
+    position: relative;
+    height: 55px;
+    padding: 3px;
+    border-radius: 2%;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    font-size: 24px;
+}
+
+#nav-sobre {
+    float: left;
+    margin-left: 20px;
+}
+#nav-livros {
+    float: left;
+}
+
+#nav-sobre:hover {
+    background-color: rgba(220, 20, 60, 0.5);
+    border-radius: 5%;
+}
+#nav-livros:hover {
+    background-color: rgba(220, 20, 60, 0.5);
+    border-radius: 5%;
+}
+
+.texto {
+    border-radius: 2%;
+    background-color: rgba(0,0,0,.1);
+    width: 600px;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.418);
+}
+
+.bloco {
+    position: relative;
+    margin: 10px;
+    background-color: rgba(230, 230, 230, 0.658);
+}
+
+.vazio {
+    float: right;
+    width: 100px;
+}

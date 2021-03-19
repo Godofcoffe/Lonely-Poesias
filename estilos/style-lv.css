@@ -1,0 +1,48 @@
+* {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-left: 15px;
+    position: relative;
+    height: 55px;
+    padding: 3px;
+    border-radius: 2%;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    font-size: 24px;
+}
+
+#nav-inicio {
+    float: left;
+}
+#nav-sobre {
+    float: left;
+    margin-left: 20px;
+}
+#nav-livros {
+    float: left;
+    margin-left: 20px;
+}
+
+#nav-inicio:hover {
+    background-color: rgba(220, 20, 60, 0.5);
+    border-radius: 5%;
+}
+#nav-sobre:hover {
+    background-color: rgba(220, 20, 60, 0.5);
+    border-radius: 5%;
+}
+#nav-livros:hover {
+    background-color: rgba(220, 20, 60, 0.5);
+    border-radius: 5%;
+}

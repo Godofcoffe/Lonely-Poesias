@@ -50,8 +50,7 @@ a {
 .texto {
     border-radius: 2%;
     background-color: rgba(0,0,0,.1);
-    width: 600px;
-    float: left;
+    width: 400px;
     margin: 15px;
     padding: 15px;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.418);
@@ -59,11 +58,9 @@ a {
 
 .bloco {
     position: relative;
-    margin: 10px;
+    margin: 30px;
     background-color: rgba(230, 230, 230, 0.658);
-}
-
-.vazio {
-    float: right;
-    width: 100px;
+    float: left;
+    border-radius: 5px;
+    width: 450px
 }

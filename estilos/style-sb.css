@@ -1,3 +1,13 @@
+@media only screen and (max-device-width: 900px) {
+    nav { width: 600px; };
+    a { font-size: 16px; };
+}
+
+@media only screen and (max-device-width: 700px) {
+    nav { width:400px; }
+    a { font-size: 16px; }
+}
+
 * {
     font-family: cursive, sans-serif;
     font-size: 16px;
@@ -5,13 +15,13 @@
 }
 
 body {
-  background-color: #d4d2d2;
+    background-color: #136F63;
 }
 
 nav {
     height: 160px;
     border-radius: 10px;
-    background-color: #ff9100;
+    background-color: #E0CA3C;
 }
 
 img {
@@ -22,20 +32,21 @@ img {
 }
 
 li {
-    margin-left: 25%;
-    margin-top: 120px;
+    margin-left: 20%;
+    margin-top: 100px;
     text-align: center;
     list-style: none;
 }
 
 a {
     text-align: justify;
-    font-size: 24px;
+    font-size: 32px;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: white;
 }
 
 #titulo {
@@ -50,11 +61,11 @@ a:hover {
 }
 #nav-sobre {
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 #nav-livros {
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #titulo2 {
@@ -64,9 +75,11 @@ a:hover {
 
 .geral {
     position: relative;
+    padding: 5px;
     margin: 20px;
+    background-color: #f1f1f1;
 }
 
 .link {
-  font-size: 16px;
+    font-size: 16px;
 }

@@ -1,11 +1,7 @@
-@media only screen and (max-device-width: 900px) {
-    nav { width: 600px; };
-    a { font-size: 16px; };
-}
-
 @media only screen and (max-device-width: 700px) {
-    nav { width:400px; }
-    a { font-size: 16px; }
+    nav { width: 812px;}
+    a { font-size: 16px;}
+    ul {margin-left: 130px; margin-top: 10px; position: absolute; width: 500px;}
 }
 
 * {

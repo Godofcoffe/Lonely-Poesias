@@ -1,8 +1,7 @@
 @media only screen and (max-device-width: 700px) {
-    nav { width: 812px;}
+    nav { width: 730px;}
     a { font-size: 16px;}
     ul {margin-left: 130px; margin-top: 10px; position: absolute; width: 500px;}
-    .bloco1 {position: absolute;}
 }
 
 * {
@@ -74,8 +73,8 @@ a:hover {
     box-shadow: 1px 1px rgba(0, 0, 0, 0.418);
 }
 
-.bloco1 {
-    margin: 80px 430px;
+#bloco1 {
     position: relative;
-    width: 600px;
+    float: left;
+    margin: 40px 210px;
 }

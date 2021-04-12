@@ -1,7 +1,12 @@
-@media only screen and (max-device-width: 700px) {
-    nav { width: 730px;}
-    a { font-size: 16px;}
-    ul {margin-left: 130px; margin-top: 10px; position: absolute; width: 500px;}
+@media (max-width: 700px){
+    nav {width: 99%;}
+    img {width: 35%; height: auto;}
+    #titulo {margin-top: 60px;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    #bloco1 {margin: 10px;}
+    a {font-size: 16px;}
 }
 
 * {
@@ -15,6 +20,7 @@ body {
 }
 
 nav {
+    position: relative;
     height: 160px;
     border-radius: 10px;
     background-color: #E0CA3C;
@@ -27,15 +33,17 @@ img {
     border-radius: 50%;
 }
 
-li {
-    margin-left: 20%;
-    margin-top: 100px;
-    text-align: center;
+ul {
     list-style: none;
 }
 
+li {
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
 a {
-    text-align: justify;
     font-size: 32px;
     text-decoration: none;
 }
@@ -45,36 +53,22 @@ a:hover {
     color: white;
 }
 
-#titulo {
-    float: left;
-    padding-top: 40px;
-    padding-left: 10px;
-    font-size: 26px;
+h3 {
+    text-align: center;
 }
 
-#nav-inicio {
+#titulo {
     float: left;
-}
-#nav-sobre {
-    float: left;
-    margin-left: 40px;
-}
-#nav-livros {
-    float: left;
-    margin-left: 40px;
+    font-size: 26px;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 
 .texto {
-    border-radius: 15px;
-    width: 500px;
-    margin-top: 30px;
-    padding: 15px;
-    background-color: white;
+    border-radius: 25px;
+    width: 600px;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
     box-shadow: 1px 1px rgba(0, 0, 0, 0.418);
-}
-
-#bloco1 {
-    position: relative;
-    float: left;
-    margin: 40px 210px;
 }

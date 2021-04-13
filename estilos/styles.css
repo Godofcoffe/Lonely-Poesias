@@ -6,20 +6,22 @@
     .texto {width: 430px;}
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&display=swap');
+
 * {
-    font-family: cursive, sans-serif;
+    font-family: 'Courgette', 'Caveat', cursive, sans-serif;
     font-size: 16px;
 }
 
 body {
-    background-color: #735646;
+    background-color: #C0C0C0;
 }
 
 nav {
     position: relative;
     height: 160px;
     border-radius: 10px;
-    background-color: #F2AE2E;
+    background-color: #FA662C;
 }
 
 img {
@@ -35,17 +37,18 @@ ul {
 
 li {
     float: left;
+    height: 110px;
+    padding-top: 50px;
     margin-left: 160px;
-    margin-top: 60px;
 }
 
 a {
-    color: #BF610F;
+    color: #001954;
     font-size: 32px;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: white;
+    color: whitesmoke;
 }

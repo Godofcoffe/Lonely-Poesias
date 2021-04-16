@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF447;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "s a"
+                        "s a"
+                        "f f";
+    column-gap: 350px;
+}
+
+section {
+    grid-area: s;
+}
+article {
+    font-size: 1.1rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px 0px 100px 5px;
+    box-shadow: 1px 1px 15px rgb(104, 104, 104);
+}
+
+aside {
+    grid-area: a;
+    padding: 15px;
+    background-color: #1A1A1A;
+    box-shadow: -3px 0px 10px #6b6b6b;
+}
+img {
+    position: fixed;
+    border-radius: 50%;
+}
+ul {
+    position: fixed;
+    list-style: none;
+    margin-top: 200px;
+}
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #C9C9C9;
+}
+a:hover {
+    text-decoration: underline;
+    color: #696969;
+}
+
+footer {
+    padding: 0;
+    grid-area: f;
+    font-size: 0.8rem;
+    height: 100px;
+    background-color: #3EB595;
+}
+.link-footer {
+    font-size: 0.8rem;
+    color: blueviolet;
+}
+.link-footer:hover {
+    text-decoration: underline;
+    color: white;
+}
+.item-footer {
+    float: left;
+    margin-left: 15px;
+}
+#copy {
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+}

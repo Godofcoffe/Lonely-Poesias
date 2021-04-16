@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFF447;
+    background-image: linear-gradient(to bottom, #FFF447,#cac036);
 }
 
 .container {
@@ -22,22 +22,24 @@ article {
     padding: 10px;
     border-radius: 25px;
     margin: 10px 0px 100px 5px;
-    box-shadow: 1px 1px 15px rgb(104, 104, 104);
+    box-shadow: 1px 1px 15px rgb(146, 146, 146);
 }
 
 aside {
     grid-area: a;
     padding: 15px;
-    background-color: #1A1A1A;
-    box-shadow: -3px 0px 10px #6b6b6b;
+    background-image: linear-gradient(to bottom,#1A1A1A, #363636);
+    box-shadow: -2px 0px 10px #807f7f;
 }
 img {
     position: fixed;
     border-radius: 50%;
 }
 ul {
-    position: fixed;
     list-style: none;
+}
+#index {
+    position: fixed;
     margin-top: 200px;
 }
 a {
@@ -51,15 +53,16 @@ a:hover {
 }
 
 footer {
-    padding: 0;
+    padding: 5px;
     grid-area: f;
     font-size: 0.8rem;
-    height: 100px;
+    height: 80px;
     background-color: #3EB595;
 }
 .link-footer {
     font-size: 0.8rem;
-    color: blueviolet;
+    color: rgb(115, 98, 226);
+    font-weight: bold;
 }
 .link-footer:hover {
     text-decoration: underline;

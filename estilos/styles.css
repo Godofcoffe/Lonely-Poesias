@@ -28,7 +28,7 @@ article {
 aside {
     grid-area: a;
     padding: 15px;
-    background-image: linear-gradient(to left,#1A1A1A, #1a1a1ae0);
+    background-image: linear-gradient(to left,#1A1A1A, #1a1a1aec);
     box-shadow: -2px 0px 10px #807f7f;
 }
 img {

@@ -10,25 +10,25 @@ body {
     grid-template-areas: "s a"
                         "s a"
                         "f f";
-    column-gap: 350px;
+    column-gap: 250px;
 }
 
 section {
     grid-area: s;
 }
 article {
-    font-size: 1.1rem;
     background-color: white;
+    width: 650px;
     padding: 10px;
     border-radius: 25px;
     margin: 10px 0px 100px 5px;
-    box-shadow: 1px 1px 15px rgb(146, 146, 146);
+    box-shadow: 1px 1px 15px rgb(59, 59, 59);
 }
 
 aside {
     grid-area: a;
     padding: 15px;
-    background-image: linear-gradient(to bottom,#1A1A1A, #363636);
+    background-image: linear-gradient(to left,#1A1A1A, #1a1a1ae0);
     box-shadow: -2px 0px 10px #807f7f;
 }
 img {
@@ -55,15 +55,15 @@ a:hover {
 footer {
     padding: 5px;
     grid-area: f;
-    font-size: 0.8rem;
     height: 80px;
+    font-size: 0.7rem;
     background-color: #3EB595;
 }
 .link-footer {
-    font-size: 0.8rem;
-    color: rgb(115, 98, 226);
-    font-weight: bold;
+    font-size: 0.7rem;
+    color: #69240F;
 }
+
 .link-footer:hover {
     text-decoration: underline;
     color: white;

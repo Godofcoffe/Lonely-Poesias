@@ -26,8 +26,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(background/background.jpg);
+    background-image: url(background/background2.jpg);
     background-attachment: fixed;
+    background-size: 85% 90%;
 }
 
 .container {
@@ -83,11 +84,11 @@ footer {
     grid-area: f;
     height: 60px;
     font-size: .7rem;
-    background-color: #3eb595f8;
+    background-color: #526657;
 }
 .link-footer {
     font-size: .7rem;
-    color: #69240F;
+    color: #A1B3A5;
 
 }
 

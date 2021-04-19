@@ -26,7 +26,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: linear-gradient(to bottom, #FFF447,#cac036);
+    background-image: url(background/background.jpg);
+    background-attachment: fixed;
 }
 
 .container {
@@ -52,7 +53,7 @@ article {
 aside {
     grid-area: a;
     padding: 15px;
-    background-image: linear-gradient(to left,#1A1A1A, #1a1a1aec);
+    background-image: linear-gradient(to left,#1A1A1A, #1a1a1af6);
     box-shadow: -2px 0px 10px #807f7f;
 }
 img {
@@ -80,12 +81,13 @@ footer {
     padding: 5px;
     grid-area: f;
     height: 80px;
-    font-size: 0.7rem;
-    background-color: #3EB595;
+    font-size: .7rem;
+    background-color: #3eb595f8;
 }
 .link-footer {
-    font-size: 0.7rem;
+    font-size: .7rem;
     color: #69240F;
+
 }
 
 .link-footer:hover {

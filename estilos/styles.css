@@ -1,20 +1,18 @@
-@media (max-width:380) {
+@media (max-width: 810px) {
+    article {
+        width: 450px;
+    }
+}
+
+@media (max-width: 810px) {
     
 }
 
-@media (max-width:430) {
+@media (max-width: 430px) {
     
 }
 
-@media (max-width:810) {
-    
-}
-
-@media (max-width:1029) {
-    
-}
-
-@media (max-width:1445) {
+@media (max-width: 380px) {
     
 }
 
@@ -51,7 +49,7 @@ aside {
     grid-row-start: 1;
     padding: 15px;
     height: 100%;
-    background-image: linear-gradient(to left,#1A1A1A, #1a1a1af6);
+    background-color: #1A1A1A;
     box-shadow: -2px 0px 10px #807f7f;
 }
 img {
